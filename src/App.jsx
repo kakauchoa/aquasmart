@@ -38,7 +38,7 @@ function AdminLayout({ children }) {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/aquasmart">
       <Routes>
         <Route path="/" element={<Login />} />
 
